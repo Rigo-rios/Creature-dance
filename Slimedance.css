@@ -1,0 +1,43 @@
+
+
+.wrapper{
+    margin: 5px;
+}
+
+.face{
+    width: 100px;
+    height: 100px;
+    border: solid 20px rgb(60, 144, 60);
+    background-color: limegreen;
+    border-radius: 35px;
+
+}
+
+.eye {
+    width: 30px;
+    height: 13px;
+    border: solid black;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.mouth{
+    width: 10px;
+    height: 10px;
+    border: solid 1px black;
+    margin: 16px;
+    position: relative;
+    top: 1em;
+    left: 1em;
+    background-color: black;
+}
+
+.left{
+    left: 60px;
+    top: -90px
+}
+.right{
+    left: 10px;
+    top: -108px;
+}
